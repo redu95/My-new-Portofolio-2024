@@ -34,7 +34,7 @@ function App() {
         <section>
           <div className='container m-auto px-4 py-10 flex gap-6'>
             <div>
-              <h1 className='font-bold text-4xl'>Hello, I'm Rediet </h1>
+              <h1 className='font-bold text-4xl'>Hello, I am Rediet </h1>
               <h1 className='font-bold text-4xl mt-1 gradiant-text'>Frontend Developer.</h1>
               <p className='mt-4 text-gray-400'>A Software engineering student at Adama Science and Technology University
                     who is passionate about creating innovative solutions for real-world problems 
