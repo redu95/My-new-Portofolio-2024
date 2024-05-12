@@ -1,5 +1,7 @@
 import './App.css'
 import Profile from "./assets/Photo.png"
+import Project1 from "./assets/OnlineShopping.png"
+import Project2 from "./assets/CSEC ASTU.png"
 
 
 function App() {
@@ -41,6 +43,22 @@ function App() {
             <div>
               <img src={Profile} width={520} />
               <img src="" alt="" />
+            </div>
+          </div>
+        </section>
+        {/* Projects Section */}
+        <section className='comtainer m-auto'>
+          <h2>Projects</h2>
+          <div className='flex gap-10'>
+            <div className='border rounded-md p-5'>
+              <img src= {Project1}  />
+              <h3 className='text-lg font-semi-bold mt-8'>Smart Shop Online Shopping</h3>
+              <p className='text-gray-400 text-sm mt-2'>Responsive HTML/CSS Layout Project using Java Servlet,Jsp</p>
+            </div>
+            <div className='border rounded-md p-5'>
+              <img src= {Project2}  />
+              <h3 className='text-lg font-semi-bold mt-8'>Club Management System</h3>
+              <p className='text-gray-400 text-sm mt-2'>Responsive HTML/CSS Layout Project using Nodejs, Expressjs</p>
             </div>
           </div>
         </section>
